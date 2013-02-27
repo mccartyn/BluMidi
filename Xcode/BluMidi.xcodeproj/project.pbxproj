@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEFF2E8416B4ACA2001F43AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2E8316B4ACA2001F43AA /* UIKit.framework */; };
+		BEFF2E8616B4ACA2001F43AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2E8516B4ACA2001F43AA /* Foundation.framework */; };
+		BEFF2E8816B4ACA2001F43AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2E8716B4ACA2001F43AA /* CoreGraphics.framework */; };
+		BEFF2E8A16B4ACA2001F43AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2E8916B4ACA2001F43AA /* CoreData.framework */; };
+		BEFF2E9016B4ACA2001F43AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2E8E16B4ACA2001F43AA /* InfoPlist.strings */; };
+		BEFF2E9216B4ACA2001F43AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2E9116B4ACA2001F43AA /* main.m */; };
+		BEFF2E9616B4ACA2001F43AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2E9516B4ACA2001F43AA /* AppDelegate.m */; };
+		BEFF2E9816B4ACA2001F43AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2E9716B4ACA2001F43AA /* Default.png */; };
+		BEFF2E9A16B4ACA2001F43AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2E9916B4ACA2001F43AA /* Default@2x.png */; };
+		BEFF2E9C16B4ACA2001F43AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2E9B16B4ACA2001F43AA /* Default-568h@2x.png */; };
+		BEFF2E9F16B4ACA2001F43AA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2E9D16B4ACA2001F43AA /* MainStoryboard_iPhone.storyboard */; };
+		BEFF2EA216B4ACA2001F43AA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2EA016B4ACA2001F43AA /* MainStoryboard_iPad.storyboard */; };
+		BEFF2EA516B4ACA2001F43AA /* BluMidi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2EA316B4ACA2001F43AA /* BluMidi.xcdatamodeld */; };
+		BEFF2EA816B4ACA3001F43AA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2EA716B4ACA3001F43AA /* MainViewController.m */; };
+		BEFF2EAB16B4ACA3001F43AA /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2EAA16B4ACA3001F43AA /* FlipsideViewController.m */; };
+		BEFF2EB316B4ACA3001F43AA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2EB216B4ACA3001F43AA /* SenTestingKit.framework */; };
+		BEFF2EB416B4ACA3001F43AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2E8316B4ACA2001F43AA /* UIKit.framework */; };
+		BEFF2EB516B4ACA3001F43AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2E8516B4ACA2001F43AA /* Foundation.framework */; };
+		BEFF2EB616B4ACA3001F43AA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2E8916B4ACA2001F43AA /* CoreData.framework */; };
+		BEFF2EBE16B4ACA3001F43AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEFF2EBC16B4ACA3001F43AA /* InfoPlist.strings */; };
+		BEFF2EC116B4ACA3001F43AA /* BluMidiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF2EC016B4ACA3001F43AA /* BluMidiTests.m */; };
+		BEFF2ECB16B4ACE8001F43AA /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2ECA16B4ACE8001F43AA /* CoreMIDI.framework */; };
+		BEFF2ECD16B4ACF1001F43AA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEFF2ECC16B4ACF1001F43AA /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEFF2EB716B4ACA3001F43AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEFF2E7616B4ACA2001F43AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEFF2E7E16B4ACA2001F43AA;
+			remoteInfo = BluMidi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEFF2E7F16B4ACA2001F43AA /* BluMidi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluMidi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFF2E8316B4ACA2001F43AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEFF2E8516B4ACA2001F43AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEFF2E8716B4ACA2001F43AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEFF2E8916B4ACA2001F43AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BEFF2E8D16B4ACA2001F43AA /* BluMidi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluMidi-Info.plist"; sourceTree = "<group>"; };
+		BEFF2E8F16B4ACA2001F43AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEFF2E9116B4ACA2001F43AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEFF2E9316B4ACA2001F43AA /* BluMidi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluMidi-Prefix.pch"; sourceTree = "<group>"; };
+		BEFF2E9416B4ACA2001F43AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEFF2E9516B4ACA2001F43AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEFF2E9716B4ACA2001F43AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BEFF2E9916B4ACA2001F43AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BEFF2E9B16B4ACA2001F43AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BEFF2E9E16B4ACA2001F43AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BEFF2EA116B4ACA2001F43AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BEFF2EA416B4ACA2001F43AA /* BluMidi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BluMidi.xcdatamodel; sourceTree = "<group>"; };
+		BEFF2EA616B4ACA2001F43AA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BEFF2EA716B4ACA3001F43AA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BEFF2EA916B4ACA3001F43AA /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		BEFF2EAA16B4ACA3001F43AA /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		BEFF2EB116B4ACA3001F43AA /* BluMidiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluMidiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFF2EB216B4ACA3001F43AA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEFF2EBB16B4ACA3001F43AA /* BluMidiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluMidiTests-Info.plist"; sourceTree = "<group>"; };
+		BEFF2EBD16B4ACA3001F43AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEFF2EBF16B4ACA3001F43AA /* BluMidiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluMidiTests.h; sourceTree = "<group>"; };
+		BEFF2EC016B4ACA3001F43AA /* BluMidiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluMidiTests.m; sourceTree = "<group>"; };
+		BEFF2ECA16B4ACE8001F43AA /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		BEFF2ECC16B4ACF1001F43AA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEFF2E7C16B4ACA2001F43AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFF2ECD16B4ACF1001F43AA /* CoreBluetooth.framework in Frameworks */,
+				BEFF2ECB16B4ACE8001F43AA /* CoreMIDI.framework in Frameworks */,
+				BEFF2E8416B4ACA2001F43AA /* UIKit.framework in Frameworks */,
+				BEFF2E8616B4ACA2001F43AA /* Foundation.framework in Frameworks */,
+				BEFF2E8816B4ACA2001F43AA /* CoreGraphics.framework in Frameworks */,
+				BEFF2E8A16B4ACA2001F43AA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFF2EAD16B4ACA3001F43AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFF2EB316B4ACA3001F43AA /* SenTestingKit.framework in Frameworks */,
+				BEFF2EB416B4ACA3001F43AA /* UIKit.framework in Frameworks */,
+				BEFF2EB516B4ACA3001F43AA /* Foundation.framework in Frameworks */,
+				BEFF2EB616B4ACA3001F43AA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEFF2E7416B4ACA2001F43AA = {
+			isa = PBXGroup;
+			children = (
+				BEFF2ECC16B4ACF1001F43AA /* CoreBluetooth.framework */,
+				BEFF2ECA16B4ACE8001F43AA /* CoreMIDI.framework */,
+				BEFF2E8B16B4ACA2001F43AA /* BluMidi */,
+				BEFF2EB916B4ACA3001F43AA /* BluMidiTests */,
+				BEFF2E8216B4ACA2001F43AA /* Frameworks */,
+				BEFF2E8016B4ACA2001F43AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEFF2E8016B4ACA2001F43AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF2E7F16B4ACA2001F43AA /* BluMidi.app */,
+				BEFF2EB116B4ACA3001F43AA /* BluMidiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEFF2E8216B4ACA2001F43AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF2E8316B4ACA2001F43AA /* UIKit.framework */,
+				BEFF2E8516B4ACA2001F43AA /* Foundation.framework */,
+				BEFF2E8716B4ACA2001F43AA /* CoreGraphics.framework */,
+				BEFF2E8916B4ACA2001F43AA /* CoreData.framework */,
+				BEFF2EB216B4ACA3001F43AA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEFF2E8B16B4ACA2001F43AA /* BluMidi */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF2E9416B4ACA2001F43AA /* AppDelegate.h */,
+				BEFF2E9516B4ACA2001F43AA /* AppDelegate.m */,
+				BEFF2E9D16B4ACA2001F43AA /* MainStoryboard_iPhone.storyboard */,
+				BEFF2EA016B4ACA2001F43AA /* MainStoryboard_iPad.storyboard */,
+				BEFF2EA616B4ACA2001F43AA /* MainViewController.h */,
+				BEFF2EA716B4ACA3001F43AA /* MainViewController.m */,
+				BEFF2EA916B4ACA3001F43AA /* FlipsideViewController.h */,
+				BEFF2EAA16B4ACA3001F43AA /* FlipsideViewController.m */,
+				BEFF2EA316B4ACA2001F43AA /* BluMidi.xcdatamodeld */,
+				BEFF2E8C16B4ACA2001F43AA /* Supporting Files */,
+			);
+			path = BluMidi;
+			sourceTree = "<group>";
+		};
+		BEFF2E8C16B4ACA2001F43AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF2E8D16B4ACA2001F43AA /* BluMidi-Info.plist */,
+				BEFF2E8E16B4ACA2001F43AA /* InfoPlist.strings */,
+				BEFF2E9116B4ACA2001F43AA /* main.m */,
+				BEFF2E9316B4ACA2001F43AA /* BluMidi-Prefix.pch */,
+				BEFF2E9716B4ACA2001F43AA /* Default.png */,
+				BEFF2E9916B4ACA2001F43AA /* Default@2x.png */,
+				BEFF2E9B16B4ACA2001F43AA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEFF2EB916B4ACA3001F43AA /* BluMidiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF2EBF16B4ACA3001F43AA /* BluMidiTests.h */,
+				BEFF2EC016B4ACA3001F43AA /* BluMidiTests.m */,
+				BEFF2EBA16B4ACA3001F43AA /* Supporting Files */,
+			);
+			path = BluMidiTests;
+			sourceTree = "<group>";
+		};
+		BEFF2EBA16B4ACA3001F43AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF2EBB16B4ACA3001F43AA /* BluMidiTests-Info.plist */,
+				BEFF2EBC16B4ACA3001F43AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEFF2E7E16B4ACA2001F43AA /* BluMidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFF2EC416B4ACA3001F43AA /* Build configuration list for PBXNativeTarget "BluMidi" */;
+			buildPhases = (
+				BEFF2E7B16B4ACA2001F43AA /* Sources */,
+				BEFF2E7C16B4ACA2001F43AA /* Frameworks */,
+				BEFF2E7D16B4ACA2001F43AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluMidi;
+			productName = BluMidi;
+			productReference = BEFF2E7F16B4ACA2001F43AA /* BluMidi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEFF2EB016B4ACA3001F43AA /* BluMidiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEFF2EC716B4ACA3001F43AA /* Build configuration list for PBXNativeTarget "BluMidiTests" */;
+			buildPhases = (
+				BEFF2EAC16B4ACA3001F43AA /* Sources */,
+				BEFF2EAD16B4ACA3001F43AA /* Frameworks */,
+				BEFF2EAE16B4ACA3001F43AA /* Resources */,
+				BEFF2EAF16B4ACA3001F43AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFF2EB816B4ACA3001F43AA /* PBXTargetDependency */,
+			);
+			name = BluMidiTests;
+			productName = BluMidiTests;
+			productReference = BEFF2EB116B4ACA3001F43AA /* BluMidiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEFF2E7616B4ACA2001F43AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nick McCarty";
+			};
+			buildConfigurationList = BEFF2E7916B4ACA2001F43AA /* Build configuration list for PBXProject "BluMidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEFF2E7416B4ACA2001F43AA;
+			productRefGroup = BEFF2E8016B4ACA2001F43AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEFF2E7E16B4ACA2001F43AA /* BluMidi */,
+				BEFF2EB016B4ACA3001F43AA /* BluMidiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEFF2E7D16B4ACA2001F43AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFF2E9016B4ACA2001F43AA /* InfoPlist.strings in Resources */,
+				BEFF2E9816B4ACA2001F43AA /* Default.png in Resources */,
+				BEFF2E9A16B4ACA2001F43AA /* Default@2x.png in Resources */,
+				BEFF2E9C16B4ACA2001F43AA /* Default-568h@2x.png in Resources */,
+				BEFF2E9F16B4ACA2001F43AA /* MainStoryboard_iPhone.storyboard in Resources */,
+				BEFF2EA216B4ACA2001F43AA /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFF2EAE16B4ACA3001F43AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFF2EBE16B4ACA3001F43AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEFF2EAF16B4ACA3001F43AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEFF2E7B16B4ACA2001F43AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFF2E9216B4ACA2001F43AA /* main.m in Sources */,
+				BEFF2E9616B4ACA2001F43AA /* AppDelegate.m in Sources */,
+				BEFF2EA516B4ACA2001F43AA /* BluMidi.xcdatamodeld in Sources */,
+				BEFF2EA816B4ACA3001F43AA /* MainViewController.m in Sources */,
+				BEFF2EAB16B4ACA3001F43AA /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFF2EAC16B4ACA3001F43AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFF2EC116B4ACA3001F43AA /* BluMidiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEFF2EB816B4ACA3001F43AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEFF2E7E16B4ACA2001F43AA /* BluMidi */;
+			targetProxy = BEFF2EB716B4ACA3001F43AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEFF2E8E16B4ACA2001F43AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFF2E8F16B4ACA2001F43AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEFF2E9D16B4ACA2001F43AA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFF2E9E16B4ACA2001F43AA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFF2EA016B4ACA2001F43AA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFF2EA116B4ACA2001F43AA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BEFF2EBC16B4ACA3001F43AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEFF2EBD16B4ACA3001F43AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEFF2EC216B4ACA3001F43AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEFF2EC316B4ACA3001F43AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEFF2EC516B4ACA3001F43AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluMidi/BluMidi-Prefix.pch";
+				INFOPLIST_FILE = "BluMidi/BluMidi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEFF2EC616B4ACA3001F43AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluMidi/BluMidi-Prefix.pch";
+				INFOPLIST_FILE = "BluMidi/BluMidi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BEFF2EC816B4ACA3001F43AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluMidi.app/BluMidi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluMidi/BluMidi-Prefix.pch";
+				INFOPLIST_FILE = "BluMidiTests/BluMidiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BEFF2EC916B4ACA3001F43AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluMidi.app/BluMidi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluMidi/BluMidi-Prefix.pch";
+				INFOPLIST_FILE = "BluMidiTests/BluMidiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEFF2E7916B4ACA2001F43AA /* Build configuration list for PBXProject "BluMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFF2EC216B4ACA3001F43AA /* Debug */,
+				BEFF2EC316B4ACA3001F43AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEFF2EC416B4ACA3001F43AA /* Build configuration list for PBXNativeTarget "BluMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFF2EC516B4ACA3001F43AA /* Debug */,
+				BEFF2EC616B4ACA3001F43AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEFF2EC716B4ACA3001F43AA /* Build configuration list for PBXNativeTarget "BluMidiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFF2EC816B4ACA3001F43AA /* Debug */,
+				BEFF2EC916B4ACA3001F43AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEFF2EA316B4ACA2001F43AA /* BluMidi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEFF2EA416B4ACA2001F43AA /* BluMidi.xcdatamodel */,
+			);
+			currentVersion = BEFF2EA416B4ACA2001F43AA /* BluMidi.xcdatamodel */;
+			path = BluMidi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEFF2E7616B4ACA2001F43AA /* Project object */;
+}
